@@ -3,7 +3,7 @@ body {
     font-size: 18px;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
 }
@@ -58,11 +58,11 @@ a {
 }
 
 a:hover, a:focus {
-    color: blue;
+    color: tomato;
 }
 
 .info {
-    width: 320px;
+
     padding: 40px;
     margin-top: 210px;
     background-color: rgb(228, 186, 0);
@@ -92,8 +92,8 @@ a:hover, a:focus {
     margin-left: 15px;
 }
 
-.info__link {
-    color: black;
+.info__link, .work__link, .project__link {
+    color: blue;
 }
 
 .main__content {
@@ -101,5 +101,26 @@ a:hover, a:focus {
 }
 
 .main__title {
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.work__title, .education__title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+}
+
+.content__title {
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.ed_go {
+    color: orange;
 }
