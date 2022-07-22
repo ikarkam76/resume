@@ -67,7 +67,7 @@ a:hover, a:focus {
     margin-top: 210px;
     background-color: rgb(228, 186, 0);
     border-radius: 0 20px 0 20px;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -80,7 +80,7 @@ a:hover, a:focus {
     margin-top: -250px;
     width: 260px;
     border-radius: 20px;
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .contact__list, .languages {
