@@ -124,3 +124,7 @@ a:hover, a:focus {
 .ed_go {
     color: orange;
 }
+
+.project__note {
+ font-size: 14px;
+}
